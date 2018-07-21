@@ -21,8 +21,7 @@ class Pokemon
         #new_id = retrieve_pokemon[0]
         name = retrieve_pokemon[1]
         type = retrieve_pokemon[2]
-        pokemon = Pokemon.save(name, type, db)
-        pokemon
+        Pokemon.save(name, type, db)
     end
 
 end
