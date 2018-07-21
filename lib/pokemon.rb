@@ -20,6 +20,7 @@ class Pokemon
         name = retrieve_pokemon[1]
         type = retrieve_pokemon[2]
         pokemon = Pokemon.new(name,type,db)
+        pokemon
     end
 
 
