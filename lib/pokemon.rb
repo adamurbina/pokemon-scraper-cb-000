@@ -26,3 +26,6 @@ class Pokemon
     end
 
 end
+
+pokemon = Pokemon.save("Pikachu", "electric", @db)
+puts pokemon
