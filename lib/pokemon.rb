@@ -23,6 +23,7 @@ class Pokemon
         type = retrieve_pokemon[2]
         #Pokemon.save(name, type, db)
         pokemon = Pokemon.new(new_id, name, type, db)
+        pokemon
     end
 
 end
